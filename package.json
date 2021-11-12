@@ -1,0 +1,36 @@
+{
+  "name": "drwhogovuk",
+  "version": "1.0.0",
+  "description": "If Doctor Who was a government service. Based on GOV.UK's frontend package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaraRhoseyn/DrWhoGovUK.git"
+  },
+  "keywords": [
+    "doctor",
+    "who",
+    "government",
+    "design",
+    "service",
+    "design",
+    "frontend",
+    "govuk",
+    "gds",
+    "government",
+    "digital",
+    "service"
+  ],
+  "author": "Tara Rhoseyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaraRhoseyn/DrWhoGovUK/issues"
+  },
+  "homepage": "https://github.com/TaraRhoseyn/DrWhoGovUK#readme",
+  "dependencies": {
+    "govuk-frontend": "^3.14.0"
+  }
+}
