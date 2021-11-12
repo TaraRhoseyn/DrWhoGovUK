@@ -6466,3 +6466,9 @@ x:-moz-any-link {
     width: 25% !important;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* OWN STYLES */ 
+
+body {
+  margin: 0px;
+}
