@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Connect stylesheet (compiled from govuk's scss files and own styles)-->
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Doctor Who</title>
 </head>
@@ -30,48 +31,22 @@
           </div>
         </div>
       </header>
-    <!-- Page content -->
-    <h1 class="govuk-heading-l">Doctor Who</h1>
-    <h2 class="govuk-heading-m">Test Heading 2</h2>
-    <!-- Test forms -->
-    <div class="govuk-form-group">
-      <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
-          <h1 class="govuk-fieldset__heading">
-            Which types of waste do you transport?
-          </h1>
-        </legend>
-        <div id="waste-hint" class="govuk-hint">
-          Select all that apply.
-        </div>
-        <div class="govuk-checkboxes" data-module="govuk-checkboxes">
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
-            <label class="govuk-label govuk-checkboxes__label" for="waste">
-              Waste from animal carcasses
-            </label>
+      <div class="govuk-width-container">
+        <main class="govuk-main-wrapper">
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
+              <h1 class="govuk-heading-xl">Doctor Who</h1>
+              <p class="govuk-body">This is a service to contact the Doctor, report suspicious alien activity and increase national security.</p>
+            </div>
           </div>
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
-            <label class="govuk-label govuk-checkboxes__label" for="waste-2">
-              Waste from mines or quarries
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
-            <label class="govuk-label govuk-checkboxes__label" for="waste-3">
-              Farm or agricultural waste
-            </label>
-          </div>
-        </div>
-      </fieldset>
-    </div>
+        </main>
+      </div>
     <!-- Footer -->
     <footer class="govuk-footer " role="contentinfo">
       <div class="govuk-width-container ">
         <div class="govuk-footer__meta">
           <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
-            <h2>I'll admit it, this is not <em>actually</em> a government service</h2>
+            <h3>I'll admit it, this is not <em>actually</em> a government service</h3>
             <p>Yes, it's true. The Doctor cannot be reached, she's too busy right now.</p>
             <p>But you can visit the <a href="https://github.com/TaraRhoseyn">person</a> who made this page.</p>
   
@@ -90,6 +65,7 @@
         </div>
       </div>
     </footer>
+    <!-- Init govuk javascript -->
     <script src="node_modules/govuk-frontend/govuk/all.js"></script>
     <script>
       window.GOVUKFrontend.initAll()
