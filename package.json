@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/TaraRhoseyn/DrWhoGovUK#readme",
   "dependencies": {
-    "govuk-frontend": "^3.14.0"
+    "govuk-frontend": "^3.14.0",
+    "gulp-cli": "^2.3.0"
   }
 }
