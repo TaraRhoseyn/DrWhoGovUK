@@ -6464,4 +6464,8 @@ x:-moz-any-link {
 
 .home--meta_info p {
   color: #505a5f !important;
+}
+
+body {
+  margin: 0px !important;
 }/*# sourceMappingURL=style.css.map */
