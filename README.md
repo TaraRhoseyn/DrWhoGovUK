@@ -8,4 +8,4 @@ I've chosen to focus on the 10th incarnation of the doctor, not least because he
 
 Allons-y!
 
-![https://github.com/TaraRhoseyn/dr_who_govuk/blob/main/assets/images/doc_returns.jpg]
+[David Tenant as the tenth doctor peaking out of the tardis](https://github.com/TaraRhoseyn/dr_who_govuk/blob/main/assets/images/doc_returns.jpg)
